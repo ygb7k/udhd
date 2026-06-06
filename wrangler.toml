@@ -1,0 +1,22 @@
+name = "udhd"
+main = "index.js"
+compatibility_date = "2025-11-09"
+workers_dev = true
+preview_urls = true
+# logpush job is setup to capture from envs ending: log, pro, or one
+logpush = false
+# use node_compat or custom build
+# node_compat = true
+send_metrics = false
+minify = false
+
+[vars]
+UUID = "9356fb9b-e9e8-4faf-a2a7-b94ac9afc6e6"
+PROXYIP = "ProxyIP.DE.tp2024.CMLiussss.net"
+
+# [build]
+# command = "npm run deploy"
+
+# [[rules]]
+# type = "ESModule"
+# globs = ["**/*.js"]
